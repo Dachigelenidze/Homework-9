@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .satauri{
+        width: 750px;
+        height: 100px;
+        margin-top: 58px;
+        margin-left: 600px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+    .satauri h2{ 
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 24px;
+    }
+    .reg{
+        width: 750px;
+    }
+    .reg input, .reg textarea, .reg p {
+    width: 100%;
+    /* margin-bottom: 38px; */
+    height: 70px;
+    margin-left: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+    }
+    .reg textarea{
+    height: 154px;
+    resize: none;}
+    .reg p{
+        font-weight: 1000px;
+        margin-top: 18px;
+        color: black;}
+    .airchie {
+        font-size: 14px;
+        margin-bottom: -80px;
+    }
+
+    .registration div{
+        width: 100%;
+        height: 40px;
+    }
+    
+    .input[type="radio"]{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .gadaxda {
+        margin-left: 30px;   
+    display: inline-flex;
+}
+    
+    .gadaxda label {
+        margin-bottom: -80px;
+       
+    } 
+    /* .cash {margin-left: 100px;} */
+    .gadaxda input[type="checkbox"]{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    input[type="submit"]{
+        background-color: #01AF8C;
+    }
+
+    /* success css */
+
+    .success{
+        width: 750px;
+        height: 394px;
+        margin-top: 58px;
+        margin-left: 600px;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 70px;
+        border-radius: 20px;
+        
+    }
+    .success h2{
+        padding-bottom: 50px;
+        font-size: 36px;
+    }
+    .gilaki {
+        margin-top: 400px;
+       margin-left: 600px;
+
+    }
+    .gilaki input[type="submit"]{
+        width: 750px;
+        height: 70px;
+        border: none;
+        border-bottom: 2px solid #000000;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: #F5BA22;
+        color: #000000;
+    }
+
